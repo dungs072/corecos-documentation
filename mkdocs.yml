@@ -1,5 +1,15 @@
 site_name: Corecos Documentation
-
+nav:
+  - Home: index.md
+  - Installation: installation.md
+  - Usage: usage.md
+  - Reference: reference.md
+  - Configuration: config.md
+  - Notice: notice.md
+  - Phaser: phaser.md
+  - Troubleshooting: troubleshooting.md
+  - Contributing: contributing.md
+  - License: license.md
 theme:
   name: material
   features:
@@ -29,11 +39,11 @@ theme:
 extra:
   social:
     - icon: fontawesome/brands/github-alt
-      link: https://github.com/james-willett
+      link: https://github.com/dungs072
     - icon: fontawesome/brands/twitter
-      link: https://twitter.com/TheJamesWillett
+      link: https://twitter.com/nothing
     - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/willettjames/
+      link: https://www.linkedin.com/in/nothing/
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
@@ -50,5 +60,14 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
 copyright: |
-  &copy; 2023 <a href="https://github.com/james-willett"  target="_blank" rel="noopener">James Willett</a>
+  &copy; 2025 <a href="https://github.com/dungs072"  target="_blank" rel="noopener">dungs72</a>

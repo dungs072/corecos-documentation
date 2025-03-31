@@ -1,14 +1,7 @@
-# Welcome to MkDocs
+# Welcome to corecos extension docs
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
-
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
+## Introduction
+* This is the main extension for cocos engine and is owned by SUN STUDIO 
 ## Project layout
 
     mkdocs.yml    # The configuration file.
